@@ -1,0 +1,141 @@
+@font-face {
+    font-family: nfs;
+    src: url('../fonts/NFS_by_JLTV.ttf');
+}
+
+body {
+    background-size: cover;
+    background-image: url('../images/logo.jpg');
+    background-attachment: fixed;
+}
+
+#countdown{
+    margin: 0;
+}
+
+#newcountdown{
+
+    margin: 0;
+}
+
+section1{
+    margin-bottom:35px;
+    text-transform:uppercase;
+    text-align:center;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+section2{
+    margin-top: 40px;
+    text-transform:uppercase;
+    text-align:center;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+#title{
+    color: red;
+    font-size: 40px;
+    text-shadow: 8px 7px 8px yellow;
+    border-radius: 3px;
+    margin-left:5px;
+    font-family: nfs;
+    text-align:center;
+}
+
+#content {
+    margin-left:60px;
+    display: table;
+}
+
+#articles {
+    color: white;
+    float:left;
+    display: table-cell;
+    width: 750px;
+    padding-right: 20px;
+}
+
+aside {
+    color: white;
+    float:right;
+    display: table-cell;
+    width: 850px;
+}
+
+#intro{
+    margin-left:100px;
+    text-align:center;
+}
+
+#menu {
+    width:auto;
+    height:auto;
+    margin-bottom:55px;
+    font-size: 26px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+#menu ul {
+    display:inline;
+    height: auto;
+    padding: 8px 0px;
+    margin:auto;
+}
+
+#menu li {
+    display: inline;
+    padding: 25px;
+}
+
+#menu a {
+    color: red;
+    text-decoration:none;
+    padding: 3px 2px 3px 3px;
+}
+
+#menu ul li a:hover {
+    border-bottom:3px white solid;
+}
+
+#menu ul li a:active {
+    color: #00FF59;
+}
+
+#paginationnews {
+    width:auto;
+    height:auto;
+    margin-bottom:8px;
+    font-size: 26px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 8px 7px 8px yellow;
+
+    border-radius: 8px;
+}
+
+#paginationnews ul {
+    display:inline;
+    height: auto;
+    padding: 8px 0px;
+    margin:auto;
+}
+
+#paginationnews li {
+    display: inline;
+    padding: 10px;
+}
+
+#paginationnews a {
+    text-decoration:blink;
+    color: red;
+    padding: 8px 8px 8px 8px;
+}
+
+#paginationnews ul li a:hover {
+     border-bottom:3px #FFF solid;
+}
