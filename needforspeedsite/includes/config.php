@@ -12,7 +12,7 @@ setlocale(LC_ALL, 'nl_NL');
 // databasegegevens
 define('DB_HOST','localhost');
 define('DB_NAME','tristan_needforspeedsite');
-define('DB_USERNAME','tristan');
-define('DB_PASSWORD','koekje');
+define('DB_USERNAME','**********');
+define('DB_PASSWORD','*************');
 
 ?>
